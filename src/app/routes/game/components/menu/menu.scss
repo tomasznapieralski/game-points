@@ -1,0 +1,61 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-left: 2px solid #885900;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 10px 20px;
+    border-bottom: 2px solid #885900;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+  }
+
+  &__table {
+    padding: 10px 20px;
+  }
+
+  &__space {
+    flex-grow: 1;
+  }
+
+  &__footer {
+    padding: 10px 20px;
+    border-top: 2px solid #885900;
+  }
+
+  &__footer-button {
+    width: 100%;
+    margin: 20px 0 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: background-color .2s ease;
+
+    &--green {
+      background-color: green;
+
+      &:hover {
+        background-color: darken(green, 10%);
+      }
+    }
+
+    &--red {
+      background-color: #a52a2a;
+
+      &:hover {
+        background-color: darken(#a52a2a, 10%);
+      }
+    }
+  }
+}

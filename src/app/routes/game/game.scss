@@ -1,0 +1,16 @@
+.game {
+  display: flex;
+  height: 600px;
+  border: 2px solid #885900;
+  border-radius: 20px;
+  background-color: rgba(37, 21, 1, 0.51);
+  color: #ffffff;
+
+  &__board {
+    width: 560px;
+  }
+
+  &__menu {
+    width: 340px;
+  }
+}

@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+
+  &__icon {
+    &--biohazard {
+      color: #af00af;
+    }
+
+    &--fire {
+      color: #e20000;
+    }
+
+    &--spider {
+      color: #000000;
+    }
+
+    &--lemon {
+      color: #fcf82d;
+    }
+
+    &--skull {
+      color: #ffffff;
+    }
+
+    &--fish {
+      color: #2dc9fc;
+    }
+  }
+
+  &--clickable {
+    cursor: pointer;
+  }
+}

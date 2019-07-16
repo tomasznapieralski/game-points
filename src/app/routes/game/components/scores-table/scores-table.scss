@@ -1,0 +1,33 @@
+.scores-table {
+  width: 100%;
+  font-size: 14px;
+
+  thead {
+    border-bottom: 1px dashed #885900;
+  }
+
+  th,
+  td {
+    text-align: center;
+  }
+
+  th {
+    padding: 5px 0;
+    text-transform: uppercase;
+  }
+
+  td {
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+
+  td:nth-of-type(1) {
+    font-size: 30px;
+  }
+
+  &__bonus-info {
+    padding-top: 5px !important;
+    font-size: 12px !important;
+    color: #ecb44c;
+  }
+}
