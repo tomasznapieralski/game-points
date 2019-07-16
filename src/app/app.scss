@@ -1,0 +1,20 @@
+@import 'styles/reset';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #200e66;
+  background-image: url(./../assets/wood.jpeg);
+  background-repeat: repeat;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.25;
+}
+
+button {
+  font-family: inherit;
+}
