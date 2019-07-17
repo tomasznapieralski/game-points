@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scores are counted correctly 1`] = `
+<ul
+  className="scores-list"
+>
+  <li
+    className="scores-list__item"
+  >
+    <div>
+      Base points:
+    </div>
+    <div>
+      2500
+    </div>
+  </li>
+  <li
+    className="scores-list__item"
+  >
+    <div>
+      Bonus points:
+    </div>
+    <div>
+      300
+    </div>
+  </li>
+  <li
+    className="scores-list__item"
+  >
+    <div>
+      Total points:
+    </div>
+    <div>
+      2800
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`Snapshot Correct Component 1`] = `
+<ul
+  className="scores-list"
+>
+  <li
+    className="scores-list__item"
+  >
+    <div>
+      Base points:
+    </div>
+    <div>
+      0
+    </div>
+  </li>
+  <li
+    className="scores-list__item"
+  >
+    <div>
+      Bonus points:
+    </div>
+    <div>
+      0
+    </div>
+  </li>
+  <li
+    className="scores-list__item"
+  >
+    <div>
+      Total points:
+    </div>
+    <div>
+      0
+    </div>
+  </li>
+</ul>
+`;

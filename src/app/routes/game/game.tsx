@@ -39,7 +39,7 @@ interface PropsInterface {
   gameHideItemAction: (id: number) => Action;
 }
 
-const Game: React.FC<PropsInterface> = ({
+export const Game: React.FC<PropsInterface> = ({
   isGameRunning,
   collectedItems,
   boardSlots,

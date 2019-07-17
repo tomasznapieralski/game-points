@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Correct Component 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="game__board"
+  >
+    <div
+      className="board"
+    >
+      <div
+        className="board__title"
+      >
+        <img
+          alt=""
+          className="board__logo"
+          src="logo.png"
+        />
+        <div
+          className="board__subtitle"
+        >
+          Points
+        </div>
+      </div>
+      <div
+        className="board__playground"
+      />
+    </div>
+  </div>
+  <div
+    className="game__menu"
+  >
+    <div
+      className="menu"
+    >
+      <div
+        className="menu__title"
+      >
+        Player Items
+      </div>
+      <div
+        className="menu__space"
+      />
+      <div
+        className="menu__footer"
+      >
+        <ul
+          className="scores-list"
+        >
+          <li
+            className="scores-list__item"
+          >
+            <div>
+              Base points:
+            </div>
+            <div>
+              0
+            </div>
+          </li>
+          <li
+            className="scores-list__item"
+          >
+            <div>
+              Bonus points:
+            </div>
+            <div>
+              0
+            </div>
+          </li>
+          <li
+            className="scores-list__item"
+          >
+            <div>
+              Total points:
+            </div>
+            <div>
+              0
+            </div>
+          </li>
+        </ul>
+        <button
+          className="menu__footer-button menu__footer-button--green"
+          onClick={[MockFunction]}
+        >
+          Start Game
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

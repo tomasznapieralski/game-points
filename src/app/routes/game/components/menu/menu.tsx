@@ -26,9 +26,11 @@ const Menu: React.FC<PropsInterface> = ({
       <div className="menu__title">
         Player Items
       </div>
-      <div className="menu__table">
-        <ScoresTable collectedItems={collectedItems} />
-      </div>
+      {collectedItems.length > 0 &&
+        <div className="menu__table">
+          <ScoresTable collectedItems={collectedItems} />
+        </div>
+      }
       <div className="menu__space"></div>
       <div className="menu__footer">
         <ScoresList collectedItems={collectedItems} />

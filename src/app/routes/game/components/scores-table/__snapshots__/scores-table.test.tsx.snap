@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table displays the data 1`] = `
+<table
+  className="scores-table"
+>
+  <thead>
+    <tr>
+      <th>
+        Item
+      </th>
+      <th>
+        Point
+      </th>
+      <th />
+      <th>
+        Quant.
+      </th>
+      <th />
+      <th>
+        Total
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        rowSpan={2}
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-fish fa-w-18 item__icon item__icon--fish"
+            data-icon="fish"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M327.1 96c-89.97 0-168.54 54.77-212.27 101.63L27.5 131.58c-12.13-9.18-30.24.6-27.14 14.66L24.54 256 .35 365.77c-3.1 14.06 15.01 23.83 27.14 14.66l87.33-66.05C158.55 361.23 237.13 416 327.1 416 464.56 416 576 288 576 256S464.56 96 327.1 96zm87.43 184c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24 13.26 0 24 10.74 24 24 0 13.25-10.75 24-24 24z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </td>
+      <td>
+        150
+      </td>
+      <td>
+        x
+      </td>
+      <td>
+        10
+      </td>
+      <td>
+        =
+      </td>
+      <td>
+        1500
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="scores-table__bonus-info"
+        colSpan={5}
+      >
+        Bonus 
+        100
+         points for every 
+        3
+         items
+      </td>
+    </tr>
+    <tr>
+      <td
+        rowSpan={1}
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-lemon fa-w-16 item__icon item__icon--lemon"
+            data-icon="lemon"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M489.038 22.963C465.944-.13 434.648-5.93 413.947 6.129c-58.906 34.312-181.25-53.077-321.073 86.746S40.441 355.041 6.129 413.945c-12.059 20.702-6.26 51.999 16.833 75.093 23.095 23.095 54.392 28.891 75.095 16.832 58.901-34.31 181.246 53.079 321.068-86.743S471.56 156.96 505.871 98.056c12.059-20.702 6.261-51.999-16.833-75.093zM243.881 95.522c-58.189 14.547-133.808 90.155-148.358 148.358-1.817 7.27-8.342 12.124-15.511 12.124-1.284 0-2.59-.156-3.893-.481-8.572-2.144-13.784-10.83-11.642-19.403C81.901 166.427 166.316 81.93 236.119 64.478c8.575-2.143 17.261 3.069 19.403 11.642s-3.069 17.259-11.641 19.402z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </td>
+      <td>
+        100
+      </td>
+      <td>
+        x
+      </td>
+      <td>
+        10
+      </td>
+      <td>
+        =
+      </td>
+      <td>
+        1000
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

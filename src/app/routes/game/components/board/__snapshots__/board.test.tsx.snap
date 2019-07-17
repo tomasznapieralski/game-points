@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board displays the items with correct classes 1`] = `
+<div
+  className="board"
+>
+  <div
+    className="board__title"
+  >
+    <img
+      alt=""
+      className="board__logo"
+      src="logo.png"
+    />
+    <div
+      className="board__subtitle"
+    >
+      Points
+    </div>
+  </div>
+  <div
+    className="board__playground"
+  >
+    <div
+      className="board__playground-item board__playground-item--row-1 board__playground-item--col-1 board__playground-item--hidden"
+    />
+    <div
+      className="board__playground-item board__playground-item--row-2 board__playground-item--col-2"
+    >
+      <div
+        className="item item--clickable"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-fish fa-w-18 item__icon item__icon--fish"
+          data-icon="fish"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M327.1 96c-89.97 0-168.54 54.77-212.27 101.63L27.5 131.58c-12.13-9.18-30.24.6-27.14 14.66L24.54 256 .35 365.77c-3.1 14.06 15.01 23.83 27.14 14.66l87.33-66.05C158.55 361.23 237.13 416 327.1 416 464.56 416 576 288 576 256S464.56 96 327.1 96zm87.43 184c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24 13.26 0 24 10.74 24 24 0 13.25-10.75 24-24 24z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="board__playground-item board__playground-item--row-3 board__playground-item--col-3 board__playground-item--hidden"
+    >
+      <div
+        className="item item--clickable"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-fish fa-w-18 item__icon item__icon--fish"
+          data-icon="fish"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M327.1 96c-89.97 0-168.54 54.77-212.27 101.63L27.5 131.58c-12.13-9.18-30.24.6-27.14 14.66L24.54 256 .35 365.77c-3.1 14.06 15.01 23.83 27.14 14.66l87.33-66.05C158.55 361.23 237.13 416 327.1 416 464.56 416 576 288 576 256S464.56 96 327.1 96zm87.43 184c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24 13.26 0 24 10.74 24 24 0 13.25-10.75 24-24 24z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
